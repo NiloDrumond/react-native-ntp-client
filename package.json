@@ -45,8 +45,10 @@
         "ntp"
     ],
     "dependencies": {
-        "node-libs-react-native": "1.0.3",
-        "react-native-udp": "https://github.com/NiloDrumond/react-native-udp"
+        "node-libs-react-native": "1.0.3"
+    },
+    "peerDependencies": {
+        "react-native-udp": "^2.6.1"
     },
     "browser": {
         "dgram": "react-native-udp"
