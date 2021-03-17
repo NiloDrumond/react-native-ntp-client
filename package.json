@@ -48,7 +48,7 @@
         "node-libs-react-native": "1.0.3"
     },
     "peerDependencies": {
-        "react-native-udp": "^2.6.1"
+        "react-native-udp": "https://github.com/NiloDrumond/react-native-udp"
     },
     "browser": {
         "dgram": "react-native-udp"
